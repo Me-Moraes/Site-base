@@ -196,7 +196,7 @@ body {
 .box a:hover {
   color: #d9d9d2;
 }
-.box ul {
+.box li {
   list-style: none;
 }
 /* Uma outra abordagem abaixo (Footer) obs: não testado e provavelmente não funciona */
