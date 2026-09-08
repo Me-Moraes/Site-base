@@ -84,6 +84,7 @@ body {
 .form input[type="text"],
 .form input[type="email"],
 .form input[type="tel"],
+.form input[type="password"],
 .form select,
 .form textarea {
   width: 100%;
@@ -93,7 +94,7 @@ body {
   font-size: 15px;
   font-family: inherit;
   color: #2b2f31;
-  background-color: #f0ecf7;
+  background-color: #f7f7ec;
   box-sizing: border-box;
   transition:
     border-color 0.2s ease,
@@ -115,7 +116,7 @@ body {
 .form button[type="submit"] {
   width: 100%;
   padding: 12px;
-  background-color: #f0ecf7;
+  background-color: #f7f6ec;
   color: #2b2f31;
   border: 1px solid #bdbdb6;
   border-radius: 8px;
@@ -198,27 +199,5 @@ body {
 }
 .box li {
   list-style: none;
+  padding: 4px;
 }
-/* Uma outra abordagem abaixo (Footer) obs: não testado e provavelmente não funciona */
-/* 
-.CardFooter {
-    padding: 10px 15px;
-    min-height: 100px;
-    min-width: 220px;
-    border-left: 2px solid #C69B63;
-    text-align: center;
-}  */
-/* 
-.CardDiv {
-    display: flex;
-    padding: 10px 15px;
-    justify-content: space-between;
-}  */
-/* 
-.CardDiv a, ul, li {
-    color: #C69B63;
-    font-weight: 600;
-    text-decoration: none;
-    transition: color 0.3s;
-    list-style: none;
-} */
