@@ -171,7 +171,7 @@ body {
 .box {
   display: grid;
   grid-template-areas: "CardLeft CardCenter CardRight";
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(3, 1fr);
   padding: 10px 15px;
 }
 .box div.CardLeft {
